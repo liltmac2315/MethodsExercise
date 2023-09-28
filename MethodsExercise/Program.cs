@@ -7,25 +7,25 @@ namespace MethodsExercise
         static void Main(string[] args)
         {
 
-            //_____________Ecercise 1___________________
-            //Name: Tommy
-            //Favorite color: Green
-            //Favorite animal: Tiger
-            //Favorite band: Beatles
+        //_____________Ecercise 1___________________
+        //Name: Tommy
+        //Favorite color: Green
+        //Favorite animal: Tiger
+        //Favorite band: Beatles
 
-            //Console.WriteLine("Hello - What is your first name?");
-            //String userName = Console.ReadLine();
+            Console.WriteLine("Hello - What is your first name?");
+            string userName = Console.ReadLine();
 
-            //Console.WriteLine($"Hi, {userName}- What is your favorite color?");
-            //String color = Console.ReadLine();
+            Console.WriteLine($"Hi, {userName}- What is your favorite color?");
+            string color = Console.ReadLine();
 
-            //Console.WriteLine($"{color} is an awesome color! What is your favorite animal?");
-            //String animal = Console.ReadLine();
+            Console.WriteLine($"{color} is an awesome color! What is your favorite animal?");
+            string animal = Console.ReadLine();
 
-            //Console.WriteLine("great! now, What is your favorite band?");
-            //String band = Console.ReadLine();
+            Console.WriteLine("great! now, What is your favorite band?");
+            string band = Console.ReadLine();
 
-            //Console.WriteLine($"Hello, {userName}! You're favorite color {color}, and you love {animal}'s , and the band {band}");
+            Console.WriteLine($"Hello, {userName}! You're favorite color {color}, and you love {animal}'s , and the band {band}");
 
             Console.WriteLine("Give me a number to add");
             int num1 = int.Parse (Console.ReadLine());
